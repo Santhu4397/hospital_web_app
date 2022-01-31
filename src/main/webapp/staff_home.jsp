@@ -1,0 +1,25 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>staff Home page</title>
+</head>
+<body>
+<!-- <%
+		String name=(String)session.getAttribute("name");
+		String role=(String)session.getAttribute("role");
+		if(name == null || role ==null){
+			response.sendRedirect("login.jsp");
+		}
+		if(role != null && !role.equals("staff"))
+		{
+			response.sendRedirect("login.jsp");
+		}
+%>
+this staff -->
+<h1 align="center"> Staff Page</h1>
+<%@ include file="staf_navbar.jsp" %>
+</body>
+</html>
